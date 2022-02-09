@@ -42,6 +42,7 @@ body {
 .title {
 	color: #313131;
 	font-size: 65px;
+	font-weight: 500;
 	line-height: 126%;
 	margin-bottom: 20px;
 }
