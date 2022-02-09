@@ -68,6 +68,8 @@ body {
 
 .title {
 	font-family: "Nexa-script-bold";
+	padding-top: 50px;
+	text-shadow: 5px 10px 6px rgb(0, 0, 0);
 	font-weight: 700;
 	color: red;
 	font-size: 60px;
@@ -234,7 +236,9 @@ body {
 
 .provisions-top-text {
 	padding: 30px;
-	border: 3px solid red;
+	border: 20px solid red;
+	border-top: none;
+	border-bottom: none;
 	margin-bottom: 40px;
 }
 .inline-provision-text {
@@ -270,6 +274,7 @@ body {
 	visibility: hidden;
 	margin-bottom: 30px;
 }
+
 .location-text3 {
 	padding: 20px;
 	background-color: #bd1b1b;
@@ -279,6 +284,11 @@ body {
 	margin-bottom: 30px;
 	opacity: 0;
 }
+
+.link-opacity {
+	font-size: 30px;
+}
+
 .location-text4 {
 	padding: 25px;
 	background-color: rgb(3, 228, 240);
